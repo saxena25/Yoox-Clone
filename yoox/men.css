@@ -1,0 +1,510 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    /* box-sizing: border-box; */
+}
+
+#userbar{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    flex-wrap: nowrap;
+    /* position: sticky;
+    top: 0px; */
+}
+
+#country{
+    float: left;
+    line-height: 31px;
+    font-size: 0.8em;
+    font-weight: 800;
+}
+
+#country > a {
+    color: black;
+}
+
+#shipping{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.8em;
+    font-weight: 800;
+}
+
+#register-login{
+    float: right;
+    font-size: 0.8em;
+    font-weight: 800;
+}
+
+#register-login > a {
+    color: black;
+}
+
+#register-login :hover{
+    background-color: rgb(219, 219, 219);
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#menu_bar{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 190px;
+}
+
+#menu_bar > a {
+    text-decoration: none;
+    padding-right: 10px;
+    color: black;
+    /* width: 90px; */
+}
+
+#logo{
+    text-align: center;
+    line-height: 30px;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#nav_btns{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 170px;
+    padding-right: 10px;
+}
+
+#nav_btns > img {
+    margin-right: 15px;
+}
+
+#shopping{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: black;
+    padding: 8px;
+}
+
+#shopping > a {
+    color: white;
+    margin-right: 10px;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#shopping > a :hover{
+    background-color: #a04646;
+}
+
+#poster{
+    /* width: %; */
+    margin: auto;
+    background-color: #f3f3f3;
+    position: relative;
+}
+
+#poster > img{
+    width: 75%;
+    display: block;
+    /* margin: auto; */
+    text-align: center;
+    position: relative;
+    left: 12%;
+}
+
+#poster_link{
+    position: absolute;
+    /* z-index: +1; */
+    left: 250px;
+    top: 450px;
+    background-color: white;
+    padding-right: 80px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#poster_link > h3{
+    margin: 0px;
+    font-weight: 600;
+}
+
+#poster_link > p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #585858;
+}
+
+#poster_link > a {
+    /* text-decoration: none; */
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#sale_banner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 70%;
+    margin: auto;
+    gap: 90px;
+    justify-content: space-evenly;
+    margin-top: 110px;
+    text-align: center;
+    background-color: #f3f3f3;
+}
+
+
+#brand_links{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffff;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 790px;
+    z-index: +1;
+    padding: 40px;
+    text-align: center;
+}
+
+#brand_links > a {
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#viewall{
+    /* margin-top: 30px; */
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.banner_1 > h4 {
+    font-size: 23px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.banner_1 > p {
+    font-size: 15px;
+}
+
+.banner_1 > a{
+    color: black;
+    font-size: 15px;
+}
+
+#new_arrivals{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    /* text-align: center; */
+    margin-top: 100px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.new_arrivals_tags{
+    margin-bottom: 50px;
+}
+
+.new_arrivals_tags > h4 {
+    background-color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+.new_arrivals_tags > p {
+    background-color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+.new-arrival-link > a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.new-arrival-a > a {
+    color: #333333;
+    text-align: left;
+}
+
+.new-arrival-link{
+    text-align: center;
+}
+
+.new-arrival-link > a > h4 {
+    background-color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+.new-arrival-link > a > p {
+    background-color: white;
+    margin: 0;
+    padding: 5px;
+}
+
+.new-arrival-link > a > span {
+    background-color: white;
+    /* padding-left: 30px;
+    padding-right: 30px; */
+}
+
+.discount_price{
+    text-decoration: line-through;
+    font-size: 13px;
+}
+
+.background {
+    background-color: #f3f3f3;
+}
+
+/* footer section  */
+#upperfooter{
+    background-color: rgb(246, 246, 246);
+    /* width: 80%; */
+}
+
+ul{
+    list-style-type: none;
+}
+
+#icon_email{
+    width: 50px;
+    height: 50px;
+}
+
+.footerline{
+    width: 40px;
+    border-top: 2px solid black;
+    margin-bottom: 10px;
+}
+
+#inside_upperfooter{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 60%;
+    /* margin-top: 40px; */
+    /* padding: 35px; */
+    padding-bottom: 30px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+#btn_submit{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+::placeholder{
+    color: rgb(90, 90, 90);
+    font-size: 13px;
+}
+
+#mail{
+    width: 207px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(237, 237, 237);
+    border: 0px solid white;
+}
+
+#news > h3 {
+    font-size: 18px;
+}
+
+#news > p {
+    font-size: 14px;
+    margin: 10px;
+}
+
+#news{
+    background-color: white;
+    padding: 30px;
+
+}
+
+#gender > span {
+    /* margin: 10px; */
+    padding: 10px;
+    font-size: 18px;
+}
+
+#gender > p {
+    /* padding: 10px; */
+    /* padding-bottom: 20px; */
+    font-size: 14px;
+}
+
+li{
+    margin: 10px;
+}
+
+#footer_social{
+    width: 60%;
+    margin: auto;
+    /* height: 50px; */
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0;
+}
+
+.social > p {
+    margin-right: 0px;
+    /* padding-right: 0px; */
+}
+
+.social > li > a {
+    float: left;
+    margin-left: -90px;
+    color: black;
+    text-decoration: none;
+    padding-right: 20px;
+    /* padding-top: 5px; */
+    /* margin-top: 0; */
+}
+
+#footer_cc{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+}
+
+#footer_cc > a{
+    color: grey;
+}
+
+.tag_anchor{
+    text-decoration: none;
+    color: #333333;
+    font-size: 15px;
+    /* margin-bottom: 15px; */
+}
+
+#news{
+    background-color: white;
+    padding: 30px;
+
+}
+
+#download > a {
+    float: right;
+    text-decoration: none;
+    color: black;
+    margin-top: 12px;
+    /* right: 50px; */
+}
+
+#newfashion_banners{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    gap: 20px;
+}
+
+#newfashion_banners > div > a {
+    text-decoration: none;
+    color: black;
+}
+
+#newfashion_banners > div > a > img {
+    height: 500px;
+}
+
+#unique_items{
+    display: flex;
+    flex-direction: row;
+    /* text-align: center; */
+    width: 70%;
+    margin: auto;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    align-items: center;
+    padding-top: 80px;
+}
+
+#shoe{
+    width: 72%;
+    margin: auto;
+    margin-top: 80px;
+    /* margin-bottom: 70px; */
+    padding-bottom: 70px;
+}
+
+#shoe > a > img{
+    width: 100%;
+    height: 600px;
+}
+
+#floating_shoe_btn{
+    position: absolute;
+    z-index: +1;
+    left: 270px;
+    top: 4100px;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 80px;
+}
+
+/* #floating_shoe_btn > h3 {
+    text-decoration: none;
+    color: #333333;
+} */
+
+h3.shoe-btn{
+    color: #333333;
+    text-decoration: none;
+}
+
+p.shoe-btn{
+    color: #333333;
+    text-decoration: none;
+}
+
+a.shoe-btn{
+    color: #333333;
+}
+
+
+

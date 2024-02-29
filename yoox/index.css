@@ -1,0 +1,384 @@
+*{
+    /* width: 90%; */
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#userbar{
+    display: flex;
+    flex-direction: row;
+    /* width: 90%; */
+    margin: auto;
+    flex-wrap: nowrap;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+#country{
+    display: flex;
+    float: left;
+    line-height: 31px;
+    font-size: 0.8em;
+    font-weight: 800;
+}
+
+#country :hover{
+    background-color: rgb(219, 219, 219);
+}
+
+#country > a {
+    color: black;
+    margin-right: 1em;
+}
+
+#shipping{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.8em;
+    font-weight: 800;
+}
+
+#register-login{
+    float: right;
+    font-size: 0.8em;
+    font-weight: 800;
+}
+
+#register-login > a {
+    color: black;
+}
+
+#register-login :hover{
+    background-color: rgb(219, 219, 219);
+}
+
+#logo{
+    text-align: center;
+    margin-top: 40px;
+}
+
+h1{
+    /* font-weight: 400; */
+    font-size: 55px;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    height: 67px;
+    width: 147px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    line-height: 80px;
+}
+#head{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333333;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333333;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#banners_wrapper :hover{
+    background-color: hsl(40, 4%, 86%);
+}
+
+#banners_wrapper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* flex-direction: row; */
+    width: 80%;
+    margin: auto;
+    gap: 1em;
+}
+
+#banners_wrapper > div > img{
+    width: 350px;
+    height: 500px;
+}
+
+#banners_wrapper > div > a {
+    text-decoration: none;
+    margin: auto;
+    background-color: black;
+    color: aliceblue;
+    /* padding-left: 150px;
+    padding-right: 150px; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#banner_women{
+    padding-left: 144px;
+    padding-right: 143px;
+}
+
+#banner_men{
+    padding-left: 152px;
+    padding-right: 152px;
+}
+
+#banner_kid{
+    padding-left: 157px;
+    padding-right: 156px;
+}
+
+#banner_design{
+    padding-left: 124px;
+    padding-right: 124px;
+}
+
+#upperfooter{
+    background-color: rgb(246, 246, 246);
+}
+
+ul{
+    list-style-type: none;
+}
+
+#icon_email{
+    width: 50px;
+    height: 50px;
+}
+
+.footerline{
+    width: 40px;
+    border-top: 2px solid black;
+    margin-bottom: 10px;
+}
+
+#inside_upperfooter{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 60%;
+    /* margin-top: 40px; */
+    /* padding: 35px; */
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.tag_anchor{
+    text-decoration: none;
+    color: #333333;
+    font-size: 15px;
+    /* margin-bottom: 15px; */
+}
+
+#news{
+    background-color: white;
+    padding: 30px;
+
+}
+
+#news > h3 {
+    font-size: 18px;
+}
+
+#news > p {
+    font-size: 14px;
+    margin: 10px;
+}
+
+#mail{
+    width: 207px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(237, 237, 237);
+    border: 0px solid white;
+}
+
+#gender > span {
+    /* margin: 10px; */
+    padding: 10px;
+    font-size: 18px;
+}
+
+#gender > p {
+    padding: 10px;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+
+#btn_submit{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#btn_submit :hover{
+    background-color: rgb(93, 93, 93);
+}
+
+::placeholder{
+    color: rgb(90, 90, 90);
+    font-size: 13px;
+}
+
+li{
+    margin: 10px;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+}
+
+#download > a {
+    float: right;
+    text-decoration: none;
+    color: black;
+}
+
+.social > p {
+    margin-right: 0px;
+    /* padding-right: 0px; */
+}
+
+.social > li > a {
+    float: left;
+    margin-left: -90px;
+    color: black;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+#footer_cc{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+}
+
+#footer_cc > a{
+    color: grey;
+}
+
+#footer_social{
+    width: 60%;
+}
+
+#select-country{
+    /* display: none; */
+    visibility: hidden;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 30%;
+    position: absolute;
+    top: 2.3em;
+    left: 10em;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background-color: rgb(197, 197, 197);
+}
+
+#select-country > a {
+    text-decoration: none;
+    font-size: .8em;
+    color: black;
+}
+
+#login-page{
+    visibility: hidden;
+    border: 1px solid red;
+    width: 300px;
+    padding: 0 0 2em 0;
+    background-color: #333333;
+    position: absolute;
+    top: 15em;
+    left: 45em;
+}
+
+#closebtn{
+    float: right;
+    padding: .3em .5em;
+    font-size: 1.5em;
+}
+
+#closebtn :hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+#login-page form {
+    display: flex;
+    flex-direction: column;
+}
+
+#login-page > h3 {
+    text-align: center;
+    padding-top: 2em;
+}
+
+#clickbtn{
+    color: #fff;
+}
+
+#register-page{
+    visibility: hidden;
+    border: 1px solid green;
+    width: 400px;
+    padding: 0 0 2em 0;
+    background-color: aquamarine;
+    position: absolute;
+    top: 15em;
+    left: 45em;
+}
+
+#register-page form{
+    display: flex;
+    flex-direction: column;
+}
+
+#register-page h3 {
+    text-align: center;
+    padding-top: 2em;
+}
+
+#closebtn-1{
+    float: right;
+    padding: .3em .5em;
+    font-size: 1.5em;
+}
+
+#closebtn-1 :hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+/* ipad screen */
+@media screen and (min-width: 1024px) and (max-width: 1366px){
+    #banners_wrapper{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    #banners{
+        margin-bottom: 30px;
+    }
+    .tag_anchor{
+        font-size: 10px;
+    }
+    #news{
+        width: 30%;
+    }
+} 
